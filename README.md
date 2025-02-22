@@ -1,4 +1,4 @@
-# Yahoo-Stock-Dashboard
+# Yahoo Stock Dashboard
 
 ## Libraries Used
 
@@ -13,3 +13,25 @@
 ### 3. **plotly.express**
    - Generates interactive and visually appealing charts.
    - Used for plotting stock price trends dynamically with custom themes.
+
+## Useful Commands
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
+### Update Dependencies
+```bash
+pip freeze > requirements.txt
+```
+
+### Debugging in Streamlit
+```bash
+streamlit run app.py --server.headless true
+```
